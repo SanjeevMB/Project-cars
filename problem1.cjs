@@ -5,7 +5,7 @@
 
 function problem1(carsArray = [], searchId){
     let result = [];
-    if(carsArray.length === 0 || !searchId || Array.isArray(carsArray) === false){
+    if(carsArray.length === 0 || searchId === undefined || Array.isArray(carsArray) === false){
         return result;        
     }else{
         for(let index = 0; index < carsArray.length; index++){
