@@ -1,7 +1,9 @@
-const carsArray = require('./inventory.cjs');
+const inventory = require('./inventory.cjs');
 
 let problem2 = require('../problem2.cjs');
 
-let carInfo = problem2(carsArray);
+let carInfo = problem2(inventory);
 
-console.log(`Last car is a ${carInfo.car_make} ${carInfo.car_model}`)
+console.log(carInfo);
+
+// console.log(`Last car is a ${carInfo.car_make} ${carInfo.car_model}`);
